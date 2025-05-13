@@ -1,0 +1,61 @@
+<mapa>
+    <focusCoordinate>
+        <lat>-22.5845</lat>
+        <lon>-64.58333</lon>
+    </focusCoordinate>
+
+    <stations>
+        <station>
+            <lat>-22.5835</lat>
+            <lon>-64.5815</lon>
+            <id>0</id>
+            <name>Estacion Once</name>
+        </station>
+        <station>
+            <lat>-22.5830</lat>
+            <lon>-64.5830</lon>
+            <id>1</id>
+            <name>Estación Caballito</name>
+        </station>
+        <station>
+            <lat>-22.5820</lat>
+            <lon>-64.5840</lon>
+            <id>2</id>
+            <name>Estación Saldia</name>
+        </station>
+        <station>
+            <lat>-22.5825</lat>
+            <lon>-64.5825</lon>
+            <id>3</id>
+            <name>Estación Truco</name>
+        </station>
+    </stations>
+
+    <edges>
+        <edge>
+            <from>0</from>
+            <to>1</to>
+            <weight>9</weight>
+        </edge>
+        <edge>
+            <from>0</from>
+            <to>2</to>
+            <weight>8</weight>
+        </edge>
+        <edge>
+            <from>0</from>
+            <to>3</to>
+            <weight>7</weight>
+        </edge>
+        <edge>
+            <from>1</from>
+            <to>3</to>
+            <weight>10</weight>
+        </edge>
+        <edge>
+            <from>2</from>
+            <to>3</to>
+            <weight>6</weight>
+        </edge>
+    </edges>
+</mapa>
